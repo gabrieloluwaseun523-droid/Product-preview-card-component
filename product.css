@@ -136,11 +136,23 @@ footer{
 }
 .details{
     padding: 20px;
-    border-top-right-radius: 3%;
-    border-bottom-right-radius: 3%;
+    border-buttom-left-radius: 3%;
+    border-buttom-right-radius: 3%;
     background-color: var(--White);
  }
 }
+.attribution { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem; text-align: center;
+    padding:25px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+ }
 @media (max-width:440px){
     body{
     min-height: 100vh;
@@ -171,11 +183,23 @@ footer{
 }
 .details{
     padding: 20px;
-    border-top-right-radius: 3%;
-    border-bottom-right-radius: 3%;
+   border-buttom-left-radius: 3%;
+    border-buttom-right-radius: 3%;
     background-color: var(--White);
  }
 }
+.attribution { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem; text-align: center;
+    padding:25px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+ }
 @media (max-width:380px){
   body{
     min-height: 100vh;
@@ -208,12 +232,24 @@ footer{
 }
 .details{
     padding: 20px;
-    border-top-right-radius: 3%;
-    border-bottom-right-radius: 3%;
+    border-buttom-left-radius: 3%;
+    border-buttom-right-radius: 3%;
     background-color: var(--White);
     width: 100%;
  }
 }
+.attribution { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem; text-align: center;
+    padding:25px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+ }
 @media (max-width:360px){
     body{
     min-height: 100vh;
@@ -237,8 +273,8 @@ footer{
     display: block;
     width: 100%;
     max-width: 250px;
-    border-top-left-radius: 3%;
-    border-top-right-radius: 3%; 
+   border-buttom-left-radius: 3%;
+    border-buttom-right-radius: 3%;
 }
 .details{
     padding: 20px;
@@ -275,6 +311,7 @@ button{
     justify-content: center;
     align-items: center;
     font-size: 1rem; text-align: center;
+    padding:25px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%);
